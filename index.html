@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tutorial on Performance Estimation Problems</title>
+    <meta
+      name="description"
+      content="Lecture page for the SMAI-MODE 2026 tutorial on performance estimation problems."
+    >
+    <link rel="stylesheet" href="assets/site.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">SMAI-MODE 2026 tutorial</p>
+          <h1>Tutorial on Performance Estimation Problems</h1>
+          <p class="lede">
+            A two-day mini-course on performance estimation problems, proof
+            structures, algorithm certification, and algorithm design.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#outline">Browse sessions</a>
+          </div>
+        </div>
+        <aside class="hero-panel">
+          <dl class="facts">
+            <div>
+              <dt>Dates</dt>
+              <dd>March 16, 2026, 2:00 PM to March 17, 2026, 6:00 PM</dd>
+            </div>
+            <div>
+              <dt>Format</dt>
+              <dd>About 6 x 90-minute sessions</dd>
+            </div>
+            <div>
+              <dt>Venue</dt>
+              <dd>Valrose campus, Universite Cote d'Azur, Nice</dd>
+            </div>
+            <div>
+              <dt>Transport</dt>
+              <dd>Tram T1, buses 11, 16, 37</dd>
+            </div>
+          </dl>
+        </aside>
+      </header>
+
+      <main>
+        <section class="section grid-two">
+          <article class="card">
+            <h2>Practical information</h2>
+            <p>
+              The tutorial takes place at the J. A. Dieudonne laboratory on the
+              Valrose campus.
+            </p>
+            <p>
+              Address: Parc Valrose, 28 Avenue Valrose, 06000 Nice,
+              <a href="https://maps.app.goo.gl/dNRu3spFookTCSQ68">map</a>.
+            </p>
+            <p>
+              Conference page:
+              <a href="https://mode2026.sciencesconf.org/">mode2026.sciencesconf.org</a>
+            </p>
+          </article>
+
+          <article class="card">
+            <h2>Lecturers</h2>
+            <ul class="compact-list">
+              <li>
+                <a href="http://www.cmap.polytechnique.fr/~aymeric.dieuleveut/">
+                  Aymeric Dieuleveut
+                </a>
+              </li>
+              <li>
+                <a href="https://adrientaylor.github.io/">Adrien Taylor</a>
+              </li>
+            </ul>
+            <div class="logo-strip">
+              <a href="https://www.inria.fr">
+                <img src="Logos/inria.png" alt="Inria logo">
+              </a>
+              <a href="https://www.polytechnique.edu/">
+                <img src="Logos/X.png" alt="Ecole Polytechnique logo">
+              </a>
+            </div>
+          </article>
+        </section>
+
+        <section class="section" id="outline">
+          <div class="section-heading">
+            <p class="eyebrow">Outline</p>
+            <h2>Schedule and course material</h2>
+            <p>
+              The course is organized across three main teaching blocks. Lab
+              notebooks and solutions open directly in Colab.
+            </p>
+          </div>
+
+          <div class="session-grid">
+            <article class="session-card">
+              <p class="session-label">Monday afternoon</p>
+              <h3>Session 1 - Intro and Part 1</h3>
+              <p>
+                Introduction to the tutorial, followed by the first lecture
+                blocks and hands-on material.
+              </p>
+              <div class="resource-group">
+                <a
+                  class="resource-link"
+                  href="./Part%200%20-%20Introduction/TutoPart0.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  📜 Intro slides
+                </a>
+                <a
+                  class="resource-link"
+                  href="./Part%201%20-%20PEPs%20and%20fundamental%20proof%20structures/TutoPart1-1.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  📜 Part 1 slides
+                </a>
+                <a
+                  class="resource-link"
+                  href="https://pepitui-test.streamlit.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  🧪 Open the UI
+                </a>
+                <a
+                  class="resource-link"
+                  href="https://colab.research.google.com/github/PerformanceEstimation/Tutorial-SMAI-MODE/blob/main/Part%201%20-%20PEPs%20and%20fundamental%20proof%20structures/PEPit_demo_extract_worst_case_examples_session1_init_student_version.ipynb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  🐍 Notebook 1 in Colab
+                </a>
+              </div>
+              <p class="subresources">
+                Lab 1 solution:
+                <a
+                  href="https://colab.research.google.com/github/PerformanceEstimation/Tutorial-SMAI-MODE/blob/main/Part%201%20-%20PEPs%20and%20fundamental%20proof%20structures/PEPit_demo_extract_worst_case_examples_session1.ipynb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  🐍 open solution in Colab
+                </a>.
+              </p>
+            </article>
+
+            <article class="session-card">
+              <p class="session-label">Tuesday morning</p>
+              <h3>Session 2 - Part 2</h3>
+              <p>
+                Continuation of Part 1 with the second slide deck and the next
+                lab session.
+              </p>
+              <div class="resource-group">
+                <a
+                  class="resource-link"
+                  href="./Part%201%20-%20PEPs%20and%20fundamental%20proof%20structures/TutoPart1-2.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  📜 Part 2 slides
+                </a>
+                <a
+                  class="resource-link"
+                  href="https://colab.research.google.com/github/PerformanceEstimation/Tutorial-SMAI-MODE/blob/main/Part%201%20-%20PEPs%20and%20fundamental%20proof%20structures/PEPit_demo_extracting_a_proof_session2_init_student_version.ipynb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  🐍 Lab session 2 in Colab
+                </a>
+              </div>
+              <p class="subresources">
+                Solution:
+                <a
+                  href="https://colab.research.google.com/github/PerformanceEstimation/Tutorial-SMAI-MODE/blob/main/Part%201%20-%20PEPs%20and%20fundamental%20proof%20structures/PEPit_demo_extracting_a_proof_session2.ipynb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  🐍 session 2
+                </a> in Colab.
+              </p>
+            </article>
+
+            <article class="session-card">
+              <p class="session-label">Tuesday afternoon</p>
+              <h3>Part 3</h3>
+              <p>
+                Algorithm design material, with a dedicated starter notebook for
+                the practical session.
+              </p>
+              <div class="resource-group">
+                <a
+                  class="resource-link"
+                  href="./Part%203%20-%20Algorithm%20design/TutoPart3.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  📜 Part 3 slides
+                </a>
+                <a
+                  class="resource-link"
+                  href="https://colab.research.google.com/github/PerformanceEstimation/Tutorial-SMAI-MODE/blob/main/Part%203%20-%20Algorithm%20design/Algorithm_design_session4_init_student_version.ipynb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  🐍 Lab session 4 in Colab
+                </a>
+              </div>
+              <p class="subresources">
+                Solution:
+                <a
+                  href="https://colab.research.google.com/github/PerformanceEstimation/Tutorial-SMAI-MODE/blob/main/Part%203%20-%20Algorithm%20design/Algorithm_design_session4.ipynb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  🐍 session 4 in Colab
+                </a>.
+              </p>
+            </article>
+
+            <article class="session-card session-card-center">
+              <p class="session-label"><strong>Challenge question / Feedback</strong></p>
+              <p><strong>Submit your most challenging question to the others</strong></p>
+              <div class="resource-group resource-group-center">
+                <span class="resource-link resource-link-muted">
+                  Open the form
+                </span>
+              </div>
+              <p><strong>Join the quizz!</strong></p>
+              <div class="resource-group resource-group-center">
+                <span class="resource-link resource-link-muted">
+                  🧠 Wooclap quizz!
+                </span>
+                <a
+                  class="resource-link"
+                  href="https://app.wooclap.com/LQHDXO/questionnaires/69baee12cbb74ac1f82ecb2b"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  🧠 Quizz - at your own pace
+                </a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section card">
+          <h2>GitHub projects</h2>
+          <p>
+            If you enjoyed the material, starring these repositories is an easy
+            way to support the open-source tools and course creators behind the
+            tutorial.
+          </p>
+          <p>
+            This kind of support is also important for the visibility and
+            recognition of the projects.
+          </p>
+          <ul class="github-list">
+            <li class="github-entry">
+              <div class="github-meta">
+                <strong>Star PEPit</strong>
+                <a href="https://github.com/PerformanceEstimation/PEPit">
+                  github.com/PerformanceEstimation/PEPit
+                </a>
+              </div>
+              <iframe
+                src="https://ghbtns.com/github-btn.html?user=PerformanceEstimation&repo=PEPit&type=star&count=true"
+                width="120"
+                height="20"
+                title="Star PEPit on GitHub"
+                class="github-button-frame"
+              ></iframe>
+            </li>
+            <li class="github-entry">
+              <div class="github-meta">
+                <strong>Star the tutorial</strong>
+                <a href="https://github.com/PerformanceEstimation/Tutorial-SMAI-MODE">
+                  github.com/PerformanceEstimation/Tutorial-SMAI-MODE
+                </a>
+              </div>
+              <iframe
+                src="https://ghbtns.com/github-btn.html?user=PerformanceEstimation&repo=Tutorial-SMAI-MODE&type=star&count=true"
+                width="120"
+                height="20"
+                title="Star Tutorial-SMAI-MODE on GitHub"
+                class="github-button-frame"
+              ></iframe>
+            </li>
+            <li class="github-entry">
+              <div class="github-meta">
+                <strong>Star the UI</strong>
+                <a href="https://github.com/dzngo/pepit_ui">
+                  github.com/dzngo/pepit_ui
+                </a>
+              </div>
+              <iframe
+                src="https://ghbtns.com/github-btn.html?user=dzngo&repo=pepit_ui&type=star&count=true"
+                width="120"
+                height="20"
+                title="Star pepit_ui on GitHub"
+                class="github-button-frame"
+              ></iframe>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section card">
+          <h2>Context and references</h2>
+          <p>
+            Performance estimation problems were introduced in [1]. This
+            mini-course mainly follows the framework and developments from
+            [2-4], together with the informal introduction in [5].
+          </p>
+          <p>
+            The labs are based on the
+            <a href="https://github.com/PerformanceEstimation/PEPit">PEPit</a>
+            code package for performance estimation problems [4].
+          </p>
+          <ul class="reference-list">
+            <li>
+              [1]
+              <a href="https://arxiv.org/pdf/1206.3209.pdf">
+                Performance of first-order methods for smooth convex
+                minimization: a novel approach
+              </a>
+            </li>
+            <li>
+              [2]
+              <a href="https://arxiv.org/pdf/1502.05666.pdf">
+                Smooth strongly convex interpolation and exact worst-case
+                performance of first-order methods
+              </a>
+            </li>
+            <li>
+              [3]
+              <a href="https://arxiv.org/pdf/1512.07516.pdf">
+                Exact worst-case performance of first-order methods for
+                composite convex optimization
+              </a>
+            </li>
+            <li>
+              [4]
+              B. Goujaud, C. Moucer, F. Glineur, J. M. Hendrickx, A. B.
+              Taylor, and A. Dieuleveut.
+              <a href="https://doi.org/10.1007/s12532-024-00259-7">
+                PEPit: computer-assisted worst-case analyses of first-order
+                optimization methods in Python
+              </a>
+              Mathematical Programming Computation 16(3), 337-367.
+            </li>
+            <li>
+              [5]
+              <a href="https://francisbach.com/computer-aided-analyses/">
+                Computer-aided analyses
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section card funding">
+          <div class="section-heading">
+            <p class="eyebrow">Acknowledgments</p>
+            <h2>Funding</h2>
+          </div>
+          <p>
+            We thank
+            <a href="https://bergthomsen.com/">Daniel Berg Thomsen</a>
+            for feedback on the content of this mini-course.
+          </p>
+          <p>
+            We also thank Damine Ngo for his work on building the tutorial UI.
+          </p>
+          <p>
+            The project was co-funded by the European Research Council and by
+            the Agence Nationale de la Recherche.
+          </p>
+          <p>
+            The project benefitted from the support of Hi! Paris, in particular
+            through the engineering team (Damien Ngo).
+          </p>
+          <div class="funding-logos">
+            <a href="https://erc.europa.eu/homepage">
+              <img src="Logos/EU.png" alt="European Union logo">
+            </a>
+            <a href="https://anr.fr/">
+              <img src="Logos/anr.png" alt="ANR logo">
+            </a>
+            <a href="https://www.hi-paris.fr/">
+              <img src="Logos/logo-hi-paris.png" alt="Hi! Paris logo">
+            </a>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!--
+    Future session template:
+    <article class="session-card">
+      <p class="session-label">Session N</p>
+      <h3>Part N - Title</h3>
+      <p>Short one-line summary.</p>
+      <div class="resource-group">
+        <a class="resource-link" href="./path/to/slides.pdf">Lecture slides</a>
+        <a class="resource-link" href="https://github.com/PerformanceEstimation/Tutorial-SMAI-MODE/blob/main/path/to/lab.ipynb">Lab notebook</a>
+      </div>
+    </article>
+    -->
+  </body>
+</html>
