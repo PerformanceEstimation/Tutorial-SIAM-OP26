@@ -1,0 +1,12 @@
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# tex
+.log
+.aux
+.nav
+.out
+.snm
+.synctex.gz
+.toc
+Tutorial-SMAI-MODE.code-workspace

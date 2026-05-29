@@ -1,37 +1,43 @@
-# Tutorial on performance estimation problems (3 hours version) at SIAM Conference on Optimization
+# Tutorial on performance estimation problems
 
 > [!IMPORTANT]
 > Course website:
-> **https://github.com/PerformanceEstimation/Tutorial-SIAM-OP26**
+> **https://performanceestimation.github.io/Tutorial-SMAI-MODE/**
 
-**SIAM-OP26:** https://www.siam.org/conferences-events/siam-conferences/op26/
+**SMAI-MODE:** https://mode2026.sciencesconf.org/
 
-**Dates:** Wed June 3: 9:15 AM - 10:45 AM and 3:15 PM - 4:45 PM.
+**Dates:** starts March 16th, 2026 at 2pm, ends March 17th, 2026 at 6pm.
+About 6 * 90mins.
 
-**Takes place at:**  The University of Edinburgh George Square, Edinburgh EH8 9JU, United Kingdom
+**Takes place at:** Valrose campus (Université Côte d'Azur), J. A. Dieudonné laboratory. 
+
+*Adress:* Parc Valrose, 28 Avenue Valrose, 06000 Nice ([maps](https://maps.app.goo.gl/dNRu3spFookTCSQ68))
+
+*Transport:* Tram T1 (stop at Valrose/Université), Bus 11, 16, 37
 
 ### Ressources:
 
 Performance estimation problems were introduced in 2014 by **Yoel Drori** and **Marc Teboulle**, see [1]. In this mini-class, we mostly follows the perspective and formalism and developments from [2, 3].  A friendly informal introduction to this formalism is available in this [blog post](https://francisbach.com/computer-aided-analyses/).
-
 ### Lecturers
 
-- [**François Glineur**](https://perso.uclouvain.be/francois.glineur/)
+- [**Aymeric Dieuleveut**](http://www.cmap.polytechnique.fr/~aymeric.dieuleveut/)
 - [**Adrien Taylor**](https://adrientaylor.github.io/)
 
 <p align="center">
   <a href="https://www.inria.fr" style="margin: 0 40px;">
     <img src="Logos/inria.png" alt="Inria" height="70">
   </a>
-  <a href="https://www.uclouvain.be" style="margin: 0 40px;">
-    <img src="Logos/UCLouvain_Logo_Pos_RVB.png" alt="UCLouvain" height="70">
+  <a href="https://www.polytechnique.edu/" style="margin: 0 40px;">
+    <img src="Logos/X.png" alt="Ecole Polytechnique" height="70">
   </a>
 </p>
 
 
 ### Acknowledgments
 
-We thank [Daniel Berg Thomsen](https://bergthomsen.com/) for numerous feedback on the content of this mini-course, including numerous updates to the notebooks. A longer version (>9h) of this course was taught at [SMAI-MODE](https://github.com/PerformanceEstimation/Tutorial-SMAI-MODE) with [Aymeric Dieuleveut](http://www.cmap.polytechnique.fr/~aymeric.dieuleveut/))
+We thank [Daniel Berg Thomsen](https://bergthomsen.com/) for numerous feedback on the content of this mini-course, including numerous updates to the notebooks. 
+
+We also thank Damine Ngo for his work on building the tutorial UI, and [Manu Upadhyaya](https://manuupadhyaya.github.io/) for feedbacks on the slides.
 
 
 ## Funding
