@@ -31,7 +31,7 @@ Performance estimation problems were introduced in 2014 by **Yoel Drori** and **
 
 ### Acknowledgments
 
-We thank [Daniel Berg Thomsen](https://bergthomsen.com/) for numerous feedback on the content of this mini-course, including numerous updates to the notebooks. A longer version (>9h) of this course was taught at [SMAI-MODE](https://github.com/PerformanceEstimation/Tutorial-SMAI-MODE) with [Aymeric Dieuleveut](http://www.cmap.polytechnique.fr/~aymeric.dieuleveut/))
+We thank [Daniel Berg Thomsen](https://bergthomsen.com/) for numerous feedback on the content of this mini-course, including numerous updates to the notebooks. A longer version (>9h) of this course was taught at [SMAI-MODE](https://github.com/PerformanceEstimation/Tutorial-SMAI-MODE) with [Aymeric Dieuleveut](http://www.cmap.polytechnique.fr/~aymeric.dieuleveut/).
 
 
 ## Funding
