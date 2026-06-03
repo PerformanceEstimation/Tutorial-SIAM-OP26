@@ -1,4 +1,4 @@
-# Tutorial on performance estimation problems (3 hours version) at SIAM Conference on Optimization
+# Tutorial on performance estimation problems at SIAM Conference on Optimization OP26
 
 > [!IMPORTANT]
 > Course website:
@@ -6,13 +6,25 @@
 
 **SIAM-OP26:** https://www.siam.org/conferences-events/siam-conferences/op26/
 
-**Dates:** Wed June 3: 9:15 AM - 10:45 AM and 3:15 PM - 4:45 PM.
+**Schedule:** 2 x 90 minutes. Wed June 3: 9:15 AM - 10:45 AM and 3:15 PM - 4:45 PM. 
 
-**Takes place at:**  The University of Edinburgh George Square, Edinburgh EH8 9JU, United Kingdom
+**Takes place at:** McEwan Hall, The University of Edinburgh George Square, Edinburgh EH8 9JU, United Kingdom
 
-### Ressources:
+### Title and abstract:
+
+**Systematic Analysis and Design of First-order Optimization Algorithms Via the Performance Estimation Framework**
+
+_This tutorial will feature a few hands on live coding sessions - if possible please bring a fully charged laptop with you (no installation needed)_
+
+Complexity analysis plays a key role in the design and analysis of algorithms in modern optimization theory. However, establishing worst-case convergence bounds classically requires non-obvious insights and ad hoc reasoning. This tutorial provides a gentle introduction to performance estimation techniques, a recent alternative approach to the analysis of first-order optimization algorithms that provides principled and constructive derivations of tight convergence bounds. Performance estimation relies on (a) interpolation theory, providing an algebraic characterization of function classes, and (b) a formulation of the computation of worst-case convergence bounds for black-box first-order algorithms as a tractable convex (semidefinite) optimization problem. In this tutorial, participants will learn how to analyze a large number of first-order optimization algorithms using performance estimation. Our hands-on introduction will focus on (i) identifying the worst-case behavior of optimization algorithms (including worst-case bounds and instances), and (ii) identifying explicit proofs for those bounds, derived from a dual problem. We will also discuss (iii) recent directions and achievements of the community, including applications to algorithm design. This tutorial will rely on online notebooks for live convergence analyses, using the PEPit Python package, available at https://pepit.readthedocs.io/.
+
+
+### Resources:
 
 Performance estimation problems were introduced in 2014 by **Yoel Drori** and **Marc Teboulle**, see [1]. In this mini-class, we mostly follows the perspective and formalism and developments from [2, 3].  A friendly informal introduction to this formalism is available in this [blog post](https://francisbach.com/computer-aided-analyses/).
+
+
+
 
 ### Lecturers
 
@@ -36,7 +48,7 @@ We thank [Daniel Berg Thomsen](https://bergthomsen.com/) for numerous feedback o
 
 ## Funding
 
-Our projects were co-funded by the European Research Council (ERC grants SEQUOIA 724063 and CASPER 101162889) and under the management of Agence Nationale de la Recherche (ANR-19-CHIA-0002-01/chaire SCAI and Hi!Paris and ANR-23-IACL-0008 PR[AI]RIE-PSAI). Views and opinions expressed are however those of the authors only.
+Our projects were co-funded by the European Research Council (ERC grants SEQUOIA 724063 and CASPER 101162889) and under the management of Agence Nationale de la Recherche (ANR-19-CHIA-0002-01/chaire SCAI and Hi!Paris and ANR-23-IACL-0008 PR[AI]RIE-PSAI). We also acknowledge funding from Fonds de la Recherche Scientifique - FNRS. Views and opinions expressed are however those of the authors only.
 
 <table border="0" width="100%" style="border-collapse: collapse;">
   <tr>
